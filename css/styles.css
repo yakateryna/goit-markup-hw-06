@@ -790,12 +790,14 @@ body {
 .modal-input:focus + .modal-icon {
   fill: var(--iris);
 }
-.modal-input-comment {
+.modal-text-area {
   width: 100%;
   height: 120px;
   border: 1px solid var(--navy-blue);
   outline: transparent;
   border-radius: 4px;
+  font-size: 12px;
+  padding: 14px 19px 14px 19px;
 }
 
 .backrop-button {
