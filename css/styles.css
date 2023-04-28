@@ -781,6 +781,7 @@ body {
 }
 .input-wrap {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
@@ -804,6 +805,12 @@ body {
   fill: var(--iris);
 }
 .modal-text-area {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+  margin-top: 8px;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.2);
@@ -815,13 +822,13 @@ body {
   margin-top: 4px;
   resize: none;
 }
-.modal-field-comment {
+.modal-field {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   color: var(--light-slate);
-  margin-top: 8px;
+  
 }
 .modal-text-area::placeholder {
   font-weight: 400;
@@ -829,17 +836,19 @@ body {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
+  
 }
 .check-text {
   display: flex;
   font-size: 12px;
   align-items: center;
+  margin-top: 16px;
 }
 .check-text::before {
   content: "";
   width: 16px;
-  width: 16px;
-  border: solid rgba(46, 47, 66, 0.4);
+  height: 16px;
+  border: 1px solid #2E2F42;
   border-radius: 2px;
   margin-right: 10px;
 }
@@ -847,9 +856,10 @@ body {
   margin-left: 4px;
 }
 .input-check:checked + .check-text::before {
-  width: 50px;
-  height: 50px;
-  background-color: #4d5ae5;
+  width: 16px;
+  height: 16px;
+  background-color: var(--ocean);
+  background-image: url(../images/Vector.svg);
 
 }
 /* ---------------------------------------------------------------- */
