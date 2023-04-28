@@ -801,6 +801,7 @@ body {
   font-size: 12px;
   padding: 8px 16px 8px 16px;
   margin-top: 4px;
+  resize: none;
 }
 .modal-field-comment {
   font-weight: 400;
@@ -830,9 +831,15 @@ body {
   border-radius: 2px;
   margin-right: 10px;
 }
+.input-check:checked + .check-text {
+  width: 50px;
+  height: 50px;
+
+}
 /* ---------------------------------------------------------------- */
 .backrop-button {
   border: none;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
