@@ -734,6 +734,9 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
+.modal-close-btn:focus {
+  background-color: var(--iris);
+}
 .modal-close-icon {
   position: absolute;
   top: 15%;
@@ -838,11 +841,14 @@ body {
   color: var(--navy-blue-modal);
   
 }
+/* --------------------------------PRIVACY-------------------------- */
 .check-text {
   display: flex;
   font-size: 12px;
-  align-items: center;
+  position: relative;
   margin-top: 16px;
+ 
+  
 }
 .check-text::before {
   content: "";
@@ -851,17 +857,25 @@ body {
   border: 1px solid #2E2F42;
   border-radius: 2px;
   margin-right: 10px;
+  background-image: url(../images/vector.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .privacy-link {
   margin-left: 4px;
+  color: var(--iris);
 }
 .input-check:checked + .check-text::before {
   width: 16px;
   height: 16px;
   background-color: var(--ocean);
-  background-image: url(../images/Vector.svg);
+  background-image: url(../images/vector.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
+
 /* ---------------------------------------------------------------- */
 .backrop-button {
   border: none;
@@ -878,10 +892,16 @@ body {
   background: var(--iris);
 
   display: block;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 64px 16px 64px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 48px;
+  margin-top: 24px;
 
   transition: var(--transition-background);
+}
+.backrop-button:hover {
+  background-color: var(--ocean);
+}
+.backrop-button:focus {
+  background-color: var(--ocean);
 }
