@@ -775,6 +775,7 @@ body {
   left: 19px;
   transform: translateY(-50%);
   top: 50%;
+  fill: var(--navy-blue);
 }
 
 .modal-input {
