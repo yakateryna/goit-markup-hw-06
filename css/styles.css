@@ -817,7 +817,19 @@ body {
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
 }
-
+.check-text {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+.check-text::before {
+  content: "";
+  width: 16px;
+  width: 16px;
+  border: solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  margin-right: 10px;
+}
 /* ---------------------------------------------------------------- */
 .backrop-button {
   border: none;
