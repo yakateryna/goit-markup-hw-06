@@ -528,6 +528,7 @@ body {
 }
 .subscribe-field {
   display: flex;
+  flex-direction: row;
   gap: 24px;
   align-items: center;
   position: relative;
@@ -923,7 +924,7 @@ subscribe-button:focus {
   border: 1px solid #2e2f42;
   border-radius: 2px;
   margin-right: 10px;
-  background-image: url(../images/vector.svg);
+  background-image: url(../images/acception.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -936,7 +937,7 @@ subscribe-button:focus {
   width: 16px;
   height: 16px;
   background-color: var(--ocean);
-  background-image: url(../images/vector.svg);
+  background-image: url(../images/acception.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
