@@ -522,7 +522,65 @@ body {
   max-width: 264px;
   margin-top: 17.5px;
 }
-
+/* -----------------------------SUBSCRIBE------------------- */
+.subscribe-wrap {
+  margin-left: 80px;
+}
+.subscribe-field {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  position: relative;
+}
+.subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: var(--white);
+}
+.subscribe-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.subscribe-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 8px 0 8px 16px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+.subscribe-icon {
+  position: absolute;
+  right: 19px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.subscribe-button {
+  border: none;
+  background-color: var(--iris);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 64px 8px 24px;
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.subscribe-button:hover {
+  background-color: var(--ocean);
+}
+subscribe-button:focus {
+  background-color: var(--ocean);
+}
 /* --------------------Footer-soc-link -----------------------*/
 .footer-soc-media {
   margin-left: 120px;
@@ -831,7 +889,6 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--light-slate);
-  
 }
 .modal-text-area::placeholder {
   font-weight: 400;
@@ -839,7 +896,6 @@ body {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
-  
 }
 /* --------------------------------PRIVACY-------------------------- */
 .check-text {
@@ -847,14 +903,12 @@ body {
   font-size: 12px;
   position: relative;
   margin-top: 16px;
- 
-  
 }
 .check-text::before {
   content: "";
   width: 16px;
   height: 16px;
-  border: 1px solid #2E2F42;
+  border: 1px solid #2e2f42;
   border-radius: 2px;
   margin-right: 10px;
   background-image: url(../images/vector.svg);
@@ -873,7 +927,6 @@ body {
   background-image: url(../images/vector.svg);
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 /* ---------------------------------------------------------------- */
