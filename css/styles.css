@@ -796,6 +796,7 @@ subscribe-button:focus {
   width: 24px;
   height: 24px;
   cursor: pointer;
+  background-color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -818,13 +819,6 @@ subscribe-button:focus {
   fill: currentColor;
 }
 
-.modal-close-btn.modal-close-icon:hover {
-  fill: var(--white);
-}
-.modal-close-btn:focus {
-  fill: var(--white);
-}
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -834,6 +828,8 @@ subscribe-button:focus {
   transform: translate(-50%, -50%) scale(0);
 }
 /* ----------------------------Fill BACKDROP------------------------ */
+.modal-form {
+}
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -843,14 +839,10 @@ subscribe-button:focus {
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
-.modal-form {
-}
+
 .modal-field {
-  margin-bottom: -8px;
-  width: 100%;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--light-slate);
 }
