@@ -913,6 +913,7 @@ subscribe-button:focus {
 /* --------------------------------PRIVACY-------------------------- */
 .check-text {
   display: flex;
+  align-items: center;
   font-size: 12px;
   position: relative;
   margin-top: 16px;
