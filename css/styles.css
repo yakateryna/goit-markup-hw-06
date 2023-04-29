@@ -768,6 +768,10 @@ subscribe-button:focus {
   background-color: var(--navy-blue-modal);
   transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
 }
+/* .hero-button:active .backdrop {
+  display: block;
+} */
+
 .modal {
   position: relative;
   width: 408px;
