@@ -566,8 +566,10 @@
           </ul>
         </div>
         <!--------------------------FOOTER SUBSCRIBE--------------->
+
         <div class="subscribe-wrap">
           <p class="subscribe-text">Subscribe</p>
+          <form class="footer-form"></form>
           <div class="subscribe-field">
             <input
               type="email"
@@ -575,10 +577,12 @@
               placeholder="E-mail"
               class="subscribe-input"
             />
-            <svg class="subscribe-icon" width="24" height="20">
-              <use href="./images/fly.svg#icon-fly"></use>
-            </svg>
-            <button type="submit" class="subscribe-button">Subscribe</button>
+
+            <button type="submit" class="subscribe-button">
+              Subscribe<svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/fly.svg#icon-fly"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -642,16 +646,14 @@
             </div>
           </div>
           <!-------Comment--------->
-          <div class="modal-field">
-            <div class="input-wrap">
-              <label class="input-text"> <span>Comment</span></label
-              ><textarea
-                id="comment"
-                name="comment"
-                placeholder="Text input"
-                class="modal-text-area"
-              ></textarea>
-            </div>
+          <div class="modal-comment">
+            <label class="input-text"> <span>Comment</span></label
+            ><textarea
+              id="comment"
+              name="comment"
+              placeholder="Text input"
+              class="modal-text-area"
+            ></textarea>
           </div>
           <!------------------------------PRIVACY---------------------- -->
           <div class="modal-field">

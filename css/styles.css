@@ -484,14 +484,12 @@ body {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 .footer-wrap {
   display: flex;
-  flex-direction: row;
 }
 .about-logo-footer {
-  display: flex;
-  flex-direction: column;
   max-width: 264px;
 }
 
@@ -524,14 +522,12 @@ body {
 }
 /* -----------------------------SUBSCRIBE------------------- */
 .subscribe-wrap {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .subscribe-field {
   display: flex;
-  flex-direction: row;
   gap: 24px;
   align-items: center;
-  position: relative;
 }
 .subscribe-text {
   font-weight: 500;
@@ -542,7 +538,7 @@ body {
   color: var(--white);
 }
 .subscribe-input {
-  min-width: 70%;
+  width: 264px;
   height: 40px;
   border: 1px solid var(--white);
   border-radius: 4px;
@@ -559,23 +555,26 @@ body {
   color: var(--white);
 }
 .subscribe-icon {
-  position: absolute;
-  right: -52px;
-  transform: translateY(-50%);
-  top: 50%;
 }
 .subscribe-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   border: none;
   background-color: var(--iris);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  padding: 8px 64px 8px 24px;
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
   color: var(--white);
+  cursor: pointer;
   text-align: center;
   letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 .subscribe-button:hover {
   background-color: var(--ocean);
@@ -845,6 +844,14 @@ subscribe-button:focus {
   font-size: 12px;
   letter-spacing: 0.01em;
   color: var(--light-slate);
+  margin-bottom: 8px;
+}
+.modal-comment {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: var(--light-slate);
+  margin-bottom: 16px;
 }
 .modal-field::placeholder {
   font-weight: 400;
@@ -864,12 +871,10 @@ subscribe-button:focus {
   letter-spacing: 0.04em;
   color: var(--light-slate);
   display: inline-block;
-  margin-top: 8px;
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }
 .input-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
@@ -908,7 +913,7 @@ subscribe-button:focus {
 
   outline: transparent;
   border-radius: 4px;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 16px;
   resize: none;
 }
 
@@ -925,7 +930,6 @@ subscribe-button:focus {
   align-items: center;
   font-size: 12px;
   position: relative;
-  margin-top: 16px;
 }
 .check-text::before {
   content: "";
@@ -968,7 +972,7 @@ subscribe-button:focus {
   background: var(--iris);
 
   display: block;
-  padding: 16px 64px 16px 64px;
+  padding: 16px 64px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
