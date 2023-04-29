@@ -542,7 +542,7 @@ body {
   color: var(--white);
 }
 .subscribe-input {
-  width: 100%;
+  min-width: 70%;
   height: 40px;
   border: 1px solid var(--white);
   border-radius: 4px;
@@ -560,7 +560,7 @@ body {
 }
 .subscribe-icon {
   position: absolute;
-  right: 19px;
+  right: -52px;
   transform: translateY(-50%);
   top: 50%;
 }
